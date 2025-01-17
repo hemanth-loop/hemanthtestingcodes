@@ -1,0 +1,12 @@
+{
+  "username": "hemantharya001@gmail.com",
+  "password": "Root@123",
+  "url": "https://biocloud.minervaiot.com/login",
+  "userCreatedMessage":"User and membership assigned Successfully",
+  "useralreadyexist":"User already exist.",
+  "firstnamerequiredmessage":"Please fill in the first name field",
+  "emailerrormessage":"Please enter a valid email address",
+  "phoneerrormessage":"Please enter a valid phone number",
+  "passworderrormessage":"Please fill in the password field",
+  "roleerrormessage":"Please select a role"
+}

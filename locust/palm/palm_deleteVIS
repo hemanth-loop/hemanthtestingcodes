@@ -1,0 +1,28 @@
+from locust import HttpUser, task, between
+
+import global_config
+from palm_registerVIS import PalmProcess
+from palm_img_config import PalmImageConfig
+
+class delete_PalmIR(PalmImageConfig):
+    
+    @task
+    def deleteIRpalm(self):
+        palm_id = None
+        res = PalmProcess.register_palm(self)
+        resdata = res.json()
+        data = resdata.get("data", {})
+        if res and "id" in data:
+            palm_id = data["id"]
+
+        if not palm_id:
+            print("No face ID to delete.")
+            return
+        
+
+        headers = {
+            "x-api-key": global_config.api_key
+        }
+
+        res = self.client.delete(f"palm/vis/{palm_id}", params=global_config.get_queries(), headers=headers)
+        global_config.delete_response(res, "Face delete")
