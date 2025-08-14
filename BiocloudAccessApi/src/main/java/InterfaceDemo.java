@@ -9,8 +9,7 @@ interface shape{
     }
     static void StaticTony(){
         System.out.println("the method is static");
-    }
-}
+    }}
 
 public class InterfaceDemo implements shape {
     public void Hoop(){

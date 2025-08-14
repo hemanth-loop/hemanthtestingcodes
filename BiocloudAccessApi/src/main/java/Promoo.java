@@ -1,5 +1,7 @@
+
+
+
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Promoo {
 
@@ -592,18 +594,268 @@ public class Promoo {
 //        System.out.println(ta);
 //**************************************************arrays**************************************************************
 
-       Integer[] arry ={0,9,2,9,8,7,5,8,5,8};
+//       Integer[] arry ={0,9,2,9,8,7,5,8,5,8};
+//
+//           Arrays.sort(arry);
+//        System.out.println(Arrays.toString(arry));
+//        Set<Integer> go = new LinkedHashSet<>(Arrays.asList(arry));
+//        int count=0;
+//        for (Integer D:go) {
+//            System.out.println(D);
+//            count++;
+//        }
+//        System.out.println(count);
+//        List<Integer> k = new LinkedList<>(go);
+//        System.out.println("the largest element in the arry list :"+k.get(count-2));
 
-           Arrays.sort(arry);
-        System.out.println(Arrays.toString(arry));
-        Set<Integer> go = new LinkedHashSet<>(Arrays.asList(arry));
-        int count=0;
-        for (Integer D:go) {
-            System.out.println(D);
-            count++;
+//****************************************************************enter the digits*************************************
+//         Scanner scanner = new Scanner(System.in);
+//        System.out.println("enter the digits");
+//        String data = scanner.nextLine();
+//        char[] mdata = data.toCharArray();
+//
+//        StringBuilder al = new StringBuilder();
+//        StringBuilder zo = new StringBuilder();
+//
+//        for (Character d:mdata) {
+//
+//            if(d=='0')
+//            {
+//                al.append(d);
+//            }else {
+//                zo.append(d);
+//            }
+//        }
+//        System.out.println(zo.toString()+al.toString());
+
+//?????????????????????????????????//char count //???????????????????????????????????????????????????????????/
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("ethe");
+//        String data = scanner.nextLine();
+//
+//        char[] p = data.toCharArray();
+//
+//        for (Character set:p) {
+//
+//            char tom = Character.toUpperCase(set);
+//                   int fog =tom-'A';
+//            System.out.print(tom+""+fog);
+//        }
+
+//        List hop = new ArrayList();
+//        hop.add(5);
+//        hop.add("gop");
+//        hop.add(1,"don");
+//
+//        System.out.println(hop);
+//
+//
+//        Iterator it = hop.iterator();
+//
+//        while (it.hasNext())
+//        {
+//            System.out.println(it.next());
+//        }
+//
+//        Map<Integer,String> data= new HashMap<>();
+//
+//        data.put(1,"suu");
+//        data.put(23,"last");
+//        data.put(4,"huu");
+//        data.put(0,"kopp");
+//        data.put(9,"noo");
+//
+//        System.out.println(data.keySet());
+//        System.out.println(data.values());
+//        System.out.println(data.entrySet());
+//
+//        for (Map.Entry<Integer,String> fog: data.entrySet()) {
+//            System.out.println(fog);
+//        }
+//
+//        for (int d:data.keySet()) {
+//            System.out.println(d+" "+data.get(d));
+//        }
+
+        //    ??????????????????????????????????????? anagrams???????????????????????????????????????????????????/???
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("enter the first string");
+//        String fdata = scanner.nextLine();
+//        String lname = scanner.nextLine();
+//
+//        char[] dataf = fdata.toCharArray();
+//        char[] datal = lname.toCharArray();
+//
+//        Arrays.sort(dataf);
+//        Arrays.sort(datal);
+//
+//        if (Arrays.equals(dataf, datal))
+//        {
+//            System.out.println("the numbers are anagrams");
+//        }else {
+//            System.out.println("the numbers are not");
+//        }
+//////////////////////////////////////////**************8add to array/////////////////////////////////////////////
+
+        //add 5 after 4 and print
+//        int[] arry = {2,3,4,5,7,8,9};
+//        int data=6;
+//        int index=4;
+//
+//        int[] arry1 = new int[arry.length+1];
+//
+//        for (int i=0; i<index; i++)
+//        {
+//            arry1[i]=arry[i];
+//        }
+//        arry1[index]=data;
+//        for (int j=index; j<arry.length; j++)
+//        {
+//            arry1[j+1]=arry[j];
+//        }
+//
+//        System.out.println(Arrays.toString(arry1));
+//        int[] arr = {4,6};
+//        int[] arr1 = {5,7};
+//
+//        int[] arry=new int[arr.length+arr1.length];
+//
+//        for (int i=0; i<arr.length; i++)
+//        {
+//            arry[i]=arr[i];
+//        }
+//        for (int j=0; j<arr1.length; j++)
+//        {
+//            arry[arr.length+j]=arr1[j];
+//        }
+//
+//        System.out.println(Arrays.toString(arry));
+
+
+//     Scanner scanner = new Scanner(System.in);
+//     int n =scanner.nextInt();
+//
+//     for (int i=1; i<=n; i++){
+//         for (int j=1; j<=n; j++)
+//         {
+//             System.out.print("*");
+//         }
+//         System.out.print("\n");
+//     }
+
+//       Scanner scanner= new Scanner(System.in);
+//        System.out.println("enter the data you want");
+//        String data=scanner.nextLine();
+//        String mdata = data.replace(" ", "");
+//        char[] cdata = mdata.toCharArray();
+//        Map<Character,Integer> OGdata = new HashMap<>();
+//
+//        for (Character rdata:cdata) {
+//            if(OGdata.containsKey(rdata)){
+//                OGdata.put(rdata, OGdata.get(rdata)+1);
+//            }
+//            else {
+//                OGdata.put(rdata,1);
+//            }
+//        }
+//        for (Character Fdata:OGdata.keySet()) {
+//            if (OGdata.get(Fdata)>1) {
+//                System.out.println(Fdata + "=" + OGdata.get(Fdata));
+//            }
+//            }
+
+
+        String job = "iam";
+        String done = "every where";
+        System.out.println(job+"\n"+done);
+        job=job+done;
+        done=job.substring(0,job.length()-done.length());
+        job=job.substring(done.length());
+        System.out.println(job+"\n"+done);
+
+
+
+
+
+        int[] arry = {2,3,4,5,7,8,9};
+        int data=6;
+        int index=4;
+
+        int[] arry1 = new int[arry.length+1];
+
+        for (int i=0; i<index; i++){
+            arry1[i]=arry[i];
         }
-        System.out.println(count);
-        List<Integer> k = new LinkedList<>(go);
-        System.out.println("the largest element in the arry list :"+k.get(count-2));
-      }
+        arry1[index]=data;
+        for (int j=index; j<arry.length; j++)
+        {
+         arry1[j+1]=arry[j];
+        }
+        for (int fog:arry1) {
+            System.out.print(fog+" ");
+        }
+
+        int nu=10;
+        int ja=15;
+        System.out.println(nu+"\n"+ja);
+
+//        int go=nu;
+//        nu=ja;
+//        ja=go;
+        nu=nu+ja;
+        ja=nu-ja;
+        nu=nu-ja;
+
+        System.out.println(nu+"\n"+ja);
+
+        int[] arr = {2, 8, 1, 5, 9, 3};
+
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+
+         int largest = arr[arr.length-1];
+        System.out.println(arr.length);
+        System.out.println(largest);
+
+
+        for(int i=0; i<5; i++)
+        {
+            for (int j=0; j<i; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println("*");
+        }
+        int[] arra= {1,2,3,4,5,6};
+        int dap=34;
+        int n =arra.length;
+        int in=arra.length-dap;
+        int[] ogarra1 = new int[arra.length];
+        int[] ogarraf = new int[arra.length];
+        for (int i=in; i<arra.length; i++)
+        {
+            ogarra1[i]=arra[i];
+        }
+        for (int kopp:ogarra1) {
+            System.out.println("last"+kopp);  //aray with 456
+        }
+        for (int i=0; i<ogarra1.length-in; i++)
+        {
+            ogarraf[i]=ogarra1[ogarra1.length-in+i];
+        }
+        for (int kop:ogarraf) {
+            System.out.println("the new array"+kop);
+        }
+        for (int i=0; i<arra.length-in; i++)
+        {
+            ogarraf[ogarra1.length-in+i]=arra[i];
+        }
+        for (int i=0; i<=ogarraf.length; i++)
+        {
+            System.out.println(ogarraf[i]);
+        }
     }
+}
+
+

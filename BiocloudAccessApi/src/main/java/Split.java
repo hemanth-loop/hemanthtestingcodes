@@ -137,15 +137,15 @@ public class Split {
         }
 
 
-        Integer[] joo = {1, 3, 5,67,34,6, 7};
+        Integer[] joo = {1, 3, 5, 67, 34, 6, 7};
         List<Integer> fog = new ArrayList<>(Arrays.asList(joo));
         Collections.sort(fog);
 
-        System.out.println("the sort data"+fog);
-       // for (Integer dota:fog) {
-           // System.out.println(dota);
+        System.out.println("the sort data" + fog);
+        // for (Integer dota:fog) {
+        // System.out.println(dota);
 
-       // }
+        // }
 
 
 //            Arrays.sort(aryy);
@@ -155,9 +155,5 @@ public class Split {
 //                   dta.add(fog);
 //            }
         // System.out.println(dta);
-
-
-
-
     }
 }
